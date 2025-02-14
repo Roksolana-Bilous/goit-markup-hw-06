@@ -219,7 +219,7 @@ img {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
     url(../images/bg-mob-min.jpg);
 }
-@media screen and (min-resolution: 2x) (-webkit-min-device-pixel-ratio: 2x) {
+@media screen and (min-resolution: 2x) {
 .page-main {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/bg-mob@2x-min.jpg);
@@ -272,12 +272,12 @@ img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
     url(../images/bg-tab-min.jpg);
     }
-    @media screen and (min-resolution: 2x) (-webkit-min-device-pixel-ratio: 2x) {
+    @media screen and (min-resolution: 2x) {
      .page-main {
          background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
          url(../images/bg-tab@2x-min.jpg);
             }
-        }
+     }
  .title-main {
      font-size: 56px;
      line-height: 1.07;
@@ -297,14 +297,14 @@ img {
         background-size: cover;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-    url(../images/bg-desk-min.jpg);
+        url(../images/bg-desk-min.jpg);
     }
-    @media screen and (min-resolution: 2x) (-webkit-min-device-pixel-ratio: 2x) {
+    @media screen and (min-resolution: 2x) {
      .page-main {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/bg-desk@2x-min.jpg);
             }
-        }
+    }
 .title-main {
     margin-bottom: 48px;
 }
@@ -772,7 +772,6 @@ width: calc((100% - 24px) / 2);
   }
 .footer-btn {
       border-radius: 4px;
-      padding-left: 24px;
       min-width: 165px;
       height: 40px;
       color: #FFF;
@@ -801,7 +800,7 @@ width: calc((100% - 24px) / 2);
   
   @media screen and (min-width: 768px) {
 .page-footer .container {
-    max-width: 258px;
+    max-width: 552px;
  }
 .container-footer {
     gap: 72px 24px;
@@ -811,6 +810,9 @@ width: calc((100% - 24px) / 2);
 }
 .text-footer {
     width: 264px;
+}
+.social-logo {
+    text-align: start;
 }
 .footer-form {
     flex-direction: row;
